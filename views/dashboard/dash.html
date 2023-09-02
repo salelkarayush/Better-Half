@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+  <title>Home</title>
+</head>
+
+<body class="">
+  <div class="bg-cover bg-center overflow-hidden h-screen w-screen" style="background-image: url('../../assets/dashboard/background.jpg');">
+    <div class="container grid grid-cols-12 grid-rows-5 gap-4 h-screen w-screen mx-0">
+      <div class="navigation-pane col-span-2 bg-opacity-50 backdrop-blur-3xl">
+        <nav class="pt-2 pb-2 rounded-r-3xl bg-gray-300 h-screen col-span-2 bg-opacity-60 backdrop-blur-3xl">
+          <div class="nav-contents flex flex-col p-2 items-center drop-shadow-2xl justify-between space-y-2">
+            <div class="h-48 p-8 pt-4 pb-4 bg-gray-100 bg-opacity-70 hover:bg-opacity-90 transition duration-700 ease-in-out rounded-2xl w-full">
+              <img class="h-full w-full object-cover rounded-full hover:shadow-2xl transition duration-700 ease-in-out" src="../../assets/dashboard/profile.jpg" alt="profile" />
+            </div>
+            <button class="h-16 text-2xl text-center font-bold font-sans p-8 pt-4 pb-4 bg-gray-100 rounded-2xl w-full hover:bg-gray-900 hover:text-gray-100 transition duration-700 ease-in-out hover:drop-shadow-2xl bg-opacity-50">
+              Home
+            </button>
+            <button class="h-16 text-lg md:text-2xl text-center font-bold font-sans p-8 pt-4 pb-4 bg-gray-100 rounded-2xl w-full hover:bg-gray-900 hover:text-gray-100 transition duration-700 ease-in-out hover:drop-shadow-2xl bg-opacity-50">
+              Chat
+            </button>
+            <button class="h-16 text-lg md:text-2xl text-center font-bold font-sans p-8 pt-4 pb-4 bg-gray-100 rounded-2xl w-full hover:bg-gray-900 hover:text-gray-100 transition duration-700 ease-in-out hover:drop-shadow-2xl bg-opacity-50">
+              Kundali
+            </button>
+            <button class="h-16 text-lg md:text-2xl text-center font-bold font-sans p-8 pt-4 pb-4 bg-gray-100 rounded-2xl w-full hover:bg-gray-900 hover:text-gray-100 transition duration-700 ease-in-out hover:drop-shadow-2xl mb-14 bg-opacity-50">
+              Map
+            </button>
+            <div class="pt-28 w-full">
+              <button class="h-16 text-lg md:text-2xl text-center font-light hover:font-bold font-sans p-8 pt-4 pb-4 bg-gray-100 rounded-2xl w-full hover:bg-red-900 hover:text-gray-100 transition duration-700 ease-in-out hover:drop-shadow-2xl space-y-12 bg-opacity-30">
+                Log-Out
+              </button>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="content flex flex-col space-y-2 col-span-10 h-80">
+        <div class="col-span-10 row-span-2 w-full bg-gray-100 h-80 "></div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
