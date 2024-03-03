@@ -1,4 +1,9 @@
-# BetterHalf
+# Better-Half 
+## A Matrimony/Dating site (Social Media) made for my SEM V DBMS-Webtech Project
+
+![image](https://github.com/salelkarayush/Better-Half/assets/113630011/a8dc5850-04ef-4975-9c0f-6dad4998b745)
+![image](https://github.com/salelkarayush/Better-Half/assets/113630011/4c4ed302-8538-4d7e-9d10-39189e541264)
+
 
 ## Follow the steps to run the project
 
