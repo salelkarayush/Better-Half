@@ -5,7 +5,7 @@
 ### Step1: Clone this project into the htdocs directory of your xampp installation
 
 ```bash
-git clone https://github.com/no-good-username/DBMSProj.git
+git clone https://github.com/salelkarayush/Better-Half.git
 
 cd DBMSProj
 ```
